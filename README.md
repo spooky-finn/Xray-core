@@ -138,7 +138,7 @@ go build -o xray.exe -trimpath -buildvcs=false -ldflags="-s -w -buildid=" -v ./m
 ### Linux / macOS
 
 ```bash
-CGO_ENABLED=0 go build -o xray -trimpath -buildvcs=false -ldflags="-s -w -buildid=" -v ./main
+CGO_ENABLED=1 go build -o xray -trimpath -buildvcs=false -ldflags="-s -w -buildid=" -v ./main
 ```
 
 ### Reproducible Releases
